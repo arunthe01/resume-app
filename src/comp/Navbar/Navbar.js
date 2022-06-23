@@ -7,11 +7,11 @@ function Navbar() {
         <div className= "nav-cont">
 
              <p> THE01 </p>
-              <div className="links">
+              {/* <div className="links">
                 <a href="#"> Home</a>
                 <a href="#"> Projects</a>
                 <a href="#"> Experience</a>
-              </div>
+              </div> */}
         </div>
     );
 }

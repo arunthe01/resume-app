@@ -52,4 +52,62 @@
  font-weight: bolder;
 }
 
+@media only screen and (max-width: 700px) {
+
+
+   
+  .homepage-img > img{
+    display: none;
+  }
+
+  
+  
+  .homepage{
+    display: block;
+   
+  }
+
+  .homepage-cont{
+    font-size: 22px;
+  }
+
+  .social-head,.tech-head{
+    font-size: 32px;
+  }
+
+  .social > a > img   {
+    width:20vw;
+  }
+  .image-printer{
+    width:31%;
+    /* margin: 0px 2px; */
+    /* background-color: aqua; */
+  }
+
+  .icon-cont,.icon-cont2,.icon-cont3{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width:93vw;
+}
+
+.image-printer > img {
+  width:24vw;
+   
+}
+
+   
+
+.image-printer > p {
+   margin-left: -3vw;
+
+}
+
+
+
+
+
+
+}
+
 
