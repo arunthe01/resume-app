@@ -1,0 +1,13 @@
+.image-printer > img {
+    width: 150px;
+     
+}
+.image-printer > p {
+    text-align: center;
+}
+
+.image-printer > img:hover {
+    background: -webkit-linear-gradient( hwb(241 17% 11%) ,rgb(255, 60, 197));
+ -webkit-text-fill-color: transparent;
+ border-radius: 40px;
+}

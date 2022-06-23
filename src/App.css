@@ -1,0 +1,55 @@
+ body{
+   color:hsl(305, 75%, 62%); 
+   /* color: #ff7dd8; */
+   
+   background-color: black;
+   
+}
+*{
+  margin: 6px 3px;
+} 
+.tech-head{
+  text-align: center;
+  margin: 75px 0px;
+  font-size: 55px;
+  font-weight: bolder;
+  background: -webkit-linear-gradient( hwb(241 17% 11%) ,rgb(255, 60, 197));
+  -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+}
+.exp-head{
+  text-align: center;
+  margin: 75px 0px;
+  font-size: 55px;
+  font-weight: bolder;
+  background: -webkit-linear-gradient( hwb(241 17% 11%) ,rgb(255, 60, 197));
+  -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+}
+
+/* p,a{
+  font-size: 72px;
+  background: -webkit-linear-gradient( hwb(241 17% 11%) ,rgb(255, 60, 197));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}  */
+.cpy{ 
+  /* margin-left: 45%; */
+  /* background-color: blue; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+.cpy > img{
+   width:40px;
+}
+.cpy > p{
+  background: -webkit-linear-gradient( #3532ff ,rgb(223, 98, 185));
+  -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+ font-size: larger;
+ font-weight: bolder;
+}
+
+

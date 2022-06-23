@@ -1,0 +1,9 @@
+.projects-cont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    /* margin-top: %; */
+    margin:0px 2%;
+
+}
