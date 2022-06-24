@@ -127,14 +127,19 @@
   margin-left: 0vh;
   margin-top: 5vh;
 }
-
+/* 
 .cpy{
   width: 75vh;
   font-size: small;
-}
+} */
 
 .cpy > img {
   width:4vh;
+}
+
+
+.cpy{
+  font-size: 2vh;
 }
 
 
