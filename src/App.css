@@ -88,7 +88,11 @@
 
   .social-head,.tech-head{
     font-size: 32px;
+    margin-top: 4vh;
+    margin-bottom: 2vh;
   }
+
+  
 
   .social > a > img   {
     width:20vw;
@@ -122,6 +126,15 @@
   width:94vw;
   margin-left: 0vh;
   margin-top: 5vh;
+}
+
+.cpy{
+  width: 75vh;
+  font-size: small;
+}
+
+.cpy > img {
+  width:4vh;
 }
 
 
