@@ -51,6 +51,16 @@
  font-size: larger;
  font-weight: bolder;
 }
+.myimg{
+  width: 80vh;
+  margin-left: 66vh;
+  margin-top: 7vh;
+  /* margin-right: 2vw; */
+  /* margin-top: 80vw; */
+  /* height: 80vh; */
+  border-radius: 15px;
+  
+}
 
 @media only screen and (max-width: 700px) {
 
@@ -64,11 +74,16 @@
   
   .homepage{
     display: block;
-   
+    margin-top: 0px;
+  }
+
+  .main-home{
+    margin-top: 6vh;
   }
 
   .homepage-cont{
-    font-size: 18px;
+    
+    font-size: 17px;
   }
 
   .social-head,.tech-head{
@@ -101,6 +116,12 @@
 .image-printer > p {
    margin-left: -3vw;
 
+}
+
+.myimg{
+  width:94vw;
+  margin-left: 0vh;
+  margin-top: 5vh;
 }
 
 

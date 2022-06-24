@@ -14,6 +14,7 @@ function App() {
      
       
            <Navbar />
+           <img className="myimg" src="https://raw.githubusercontent.com/arunthe01/pic/main/world.png" />
            <Homepage/>
            <p className="tech-head"> TECH-STACK </p>
            <Techstack/>
