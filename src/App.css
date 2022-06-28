@@ -52,9 +52,10 @@
  font-weight: bolder;
 }
 .myimg{
-  width: 80vh;
-  margin-left: 66vh;
-  margin-top: 7vh;
+  width: 70vw;
+  margin: auto;
+  display: block;
+ 
   /* margin-right: 2vw; */
   /* margin-top: 80vw; */
   /* height: 80vh; */
@@ -123,9 +124,10 @@
 }
 
 .myimg{
-  width:94vw;
-  margin-left: 0vh;
-  margin-top: 5vh;
+  width:70vw;
+  display:block;
+  margin: 4vh auto;
+ 
 }
 /* 
 .cpy{
