@@ -1,5 +1,8 @@
 .main-home{
     margin-top: 100px;
+    width:90vw;
+    display: block;
+    margin: auto;
 }
 
 .homepage{
@@ -47,6 +50,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width:90vw;
+    /* background-color: aqua; */
 }
 .social > a > img{
     width: 150px;
@@ -59,5 +64,7 @@
  -webkit-text-fill-color: transparent;
   border-radius: 50px;
 }
+
+
  
 

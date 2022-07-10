@@ -89,7 +89,7 @@ function Techstack() {
        
 
 
-    return( <div> 
+    return( <div className="tsd"> 
         
             <div className="icon-cont">
 

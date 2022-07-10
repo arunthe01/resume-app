@@ -80,6 +80,7 @@
 
   .main-home{
     margin-top: 6vh;
+    width:95vw;
   }
 
   .homepage-cont{
@@ -96,7 +97,7 @@
   
 
   .social > a > img   {
-    width:20vw;
+    width:15vw;
   }
   .image-printer{
     width:31%;
@@ -112,8 +113,19 @@
 }
 
 .image-printer > img {
-  width:24vw;
+  width:22vw;
    
+}
+.social{
+  max-width: 95%;
+  /* background-color: antiquewhite!important; */
+  margin:0px 0px;
+}
+
+.tsd{
+  
+  max-width: 94%!important;
+  margin: 0px, im !important;;
 }
 
    
@@ -144,11 +156,26 @@
   font-size: 2vh;
 }
 
+.sent-box{
+  font-size: 20px;
+
+}
+.p-box{
+  max-width: 80%;
+}
 
 
 
 
 
+
+
+}
+
+@media only screen and (max-width: 1000px){
+  .p-box{
+    max-width: 80%;
+  }
 }
 
 

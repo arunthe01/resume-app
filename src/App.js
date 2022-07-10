@@ -19,11 +19,11 @@ function App() {
            <p className="tech-head"> TECH-STACK </p>
            <Techstack/>
            {/* <p className="exp-head"> Experience </p> */}
-           {/* <Experience/>
+           {/* {/* <Experience/> */}
 
            <p className="tech-head"> PROJECTS </p>
 
-           <Projects/> */}
+           <Projects/> 
 
 
             

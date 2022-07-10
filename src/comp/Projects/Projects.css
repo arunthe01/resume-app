@@ -1,9 +1,12 @@
 .projects-cont{
+    width:100%;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content:flex-start;
+    align-items: flex-start;
     flex-wrap: wrap;
-    /* margin-top: %; */
-    margin:0px 2%;
+    /* margin: 0px!important; */
 
+}
+*{
+    overflow-x: hidden;
 }

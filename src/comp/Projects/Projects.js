@@ -2,17 +2,20 @@ import "./Projects.css";
 import React from "react";
 import Projecttemp from "./Projecttemp/Projecttemp";
 import instagram from "../../images/instagram.png";
+import moviebox from "../../images/moviebox.jpg";
+import todoapp from "../../images/todoapp.jpg";
+import resumeapp from "../../images/resumeapp.jpg";
 
 function Projects(){
 
     const arr=[
         {
 
-            image: "https://c4.wallpaperflare.com/wallpaper/538/723/588/the-avengers-avengers-age-of-ultron-superhero-lines-wallpaper-preview.jpg",
+            image: moviebox,
     
-            content: [ "What is Lorem Ipsum", "What is Lorem Ipsum","What is Lorem Ipsum","What is Lorem Ipsum","What is Lorem Ipsum","What is Lorem Ipsum","What is Lorem Ipsum","What is Lorem Ipsum"],
+            content: [ "This project is actually just a Netflix clone, which has user authentication also i have used an online api to fetch the movies data.", "and the website is fully responsive."," check it out by clicking the button below. "],
     
-            link:"https://www.instagram.com/"
+            link:"https://aruns-movie-app.herokuapp.com/"
     
            },
 
@@ -21,35 +24,35 @@ function Projects(){
 
        {
 
-        image: "https://c4.wallpaperflare.com/wallpaper/857/457/204/iron-man-artwork-comic-books-superhero-wallpaper-preview.jpg",
+        image: todoapp,
 
-        content: [ "What is Lorem Ipsum", "What is Lorem Ipsum","What is Lorem Ipsum","What is Lorem Ipsum","What is Lorem Ipsum","What is Lorem Ipsum","What is Lorem Ipsum","What is Lorem Ipsum"],
+        content: [ "This project is a task noting website which helps us to remove the risk of forgetting important things.", "This website is fully responsive."," check it out by clicking the button below."],
 
-        link:"https://www.instagram.com/"
-
-       },
-
-       {
-
-
-
-        image:"https://c4.wallpaperflare.com/wallpaper/93/298/371/steampunk-3d-artwork-eyes-wallpaper-preview.jpg"    ,
-
-        content: [ "What is Lorem Ipsum", "What is Lorem Ipsum","What is Lorem Ipsum","What is Lorem Ipsum","What is Lorem Ipsum","What is Lorem Ipsum","What is Lorem Ipsum","What is Lorem Ipsum"],
-
-        link:"https://www.instagram.com/"
+        link:"https://todo-app-arun.herokuapp.com/"
 
        },
 
        {
 
-        image:"https://wallpaperaccess.com/full/210938.jpg",
 
-        content: [ "What is Lorem Ipsum", "What is Lorem Ipsum","What is Lorem Ipsum","What is Lorem Ipsum","What is Lorem Ipsum","What is Lorem Ipsum","What is Lorem Ipsum","What is Lorem Ipsum"],
 
-        link:"https://www.instagram.com/"
+        image: resumeapp,
 
-       }
+        content: [ "This project is my personal website to advertise my skills,projects, and my social media", "This website is fully responsive." ,"check it out by clicking the button below."],
+
+        link:"https://resume-arun.herokuapp.com/"
+
+       },
+
+    //    {
+
+    //     image:"https://wallpaperaccess.com/full/210938.jpg",
+
+    //     content: [ "What is Lorem Ipsum", "What is Lorem Ipsum","What is Lorem Ipsum","What is Lorem Ipsum","What is Lorem Ipsum","What is Lorem Ipsum","What is Lorem Ipsum","What is Lorem Ipsum"],
+
+    //     link:"https://www.instagram.com/"
+
+    //    }
     
     
     ];
