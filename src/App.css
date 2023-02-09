@@ -84,7 +84,7 @@
   }
 
   .homepage-cont{
-    
+    width: 100%;
     font-size: 17px;
   }
 
@@ -136,8 +136,9 @@
 }
 
 .myimg{
+  display: none;
   width:70vw;
-  display:block;
+  /* display:block; */
   margin: 4vh auto;
  
 }

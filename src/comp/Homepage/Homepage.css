@@ -6,17 +6,16 @@
 }
 
 .homepage{
-   
    display: flex;
+   justify-content: center;
+   width:100%;
    /* background-color: antiquewhite; */
-    
 }
 
 .homepage-cont{
     font-size: 32px;
     width: 100%;
     /* background-color: #ecddce; */
-   
 }
 
 
@@ -28,7 +27,7 @@
 }
 .homepage-img{
     width: 20%;
-   
+   display: none;
 }
 .homepage-img > img{
     margin-left:30%;
